@@ -9,11 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Draughts")
+                .font(.largeTitle)
+            VStack(alignment: .leading) {
+                HStack {
+                    Image(systemName: "checkerboard.rectangle")
+                        .imageScale(.large)
+                        .foregroundColor(.orange)
+                    Text("Play")
+                }
+                HStack {
+                    Image(systemName: "checkerboard.rectangle")
+                        .imageScale(.large)
+                        .foregroundColor(.orange)
+                    Text("Stats")
+                }
+            }
+            Text("CFG iOS App Dev MOOC")
         }
         .padding()
     }
