@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		03C02E812AA6689800DA26BD /* DraughtsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02E802AA6689800DA26BD /* DraughtsAppApp.swift */; };
-		03C02E832AA6689800DA26BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02E822AA6689800DA26BD /* ContentView.swift */; };
+		03C02E832AA6689800DA26BD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02E822AA6689800DA26BD /* WelcomeView.swift */; };
 		03C02E852AA6689B00DA26BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C02E842AA6689B00DA26BD /* Assets.xcassets */; };
 		03C02E882AA6689B00DA26BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C02E872AA6689B00DA26BD /* Preview Assets.xcassets */; };
 		03C02E922AA6689B00DA26BD /* DraughtsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02E912AA6689B00DA26BD /* DraughtsAppTests.swift */; };
 		03C02E9C2AA6689B00DA26BD /* DraughtsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02E9B2AA6689B00DA26BD /* DraughtsAppUITests.swift */; };
 		03C02E9E2AA6689B00DA26BD /* DraughtsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02E9D2AA6689B00DA26BD /* DraughtsAppUITestsLaunchTests.swift */; };
+		03C02EB52AA8EBB700DA26BD /* GameModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02EB42AA8EBB700DA26BD /* GameModeView.swift */; };
+		03C02EBD2AACC17700DA26BD /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02EBC2AACC17700DA26BD /* StatsView.swift */; };
+		03C02EBF2AACC1E500DA26BD /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02EBE2AACC1E500DA26BD /* BoardView.swift */; };
+		03C02EC32AAE4D7000DA26BD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02EC22AAE4D7000DA26BD /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		03C02E7D2AA6689800DA26BD /* DraughtsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraughtsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C02E802AA6689800DA26BD /* DraughtsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraughtsAppApp.swift; sourceTree = "<group>"; };
-		03C02E822AA6689800DA26BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03C02E822AA6689800DA26BD /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		03C02E842AA6689B00DA26BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C02E872AA6689B00DA26BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03C02E8D2AA6689B00DA26BD /* DraughtsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraughtsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		03C02E972AA6689B00DA26BD /* DraughtsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraughtsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C02E9B2AA6689B00DA26BD /* DraughtsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraughtsAppUITests.swift; sourceTree = "<group>"; };
 		03C02E9D2AA6689B00DA26BD /* DraughtsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraughtsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03C02EB42AA8EBB700DA26BD /* GameModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeView.swift; sourceTree = "<group>"; };
+		03C02EBC2AACC17700DA26BD /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		03C02EBE2AACC1E500DA26BD /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		03C02EC22AAE4D7000DA26BD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		03C02E7F2AA6689800DA26BD /* DraughtsApp */ = {
 			isa = PBXGroup;
 			children = (
+				03C02EB12AA8E99600DA26BD /* Models */,
+				03C02EB02AA8E98F00DA26BD /* Views */,
 				03C02E802AA6689800DA26BD /* DraughtsAppApp.swift */,
-				03C02E822AA6689800DA26BD /* ContentView.swift */,
 				03C02E842AA6689B00DA26BD /* Assets.xcassets */,
 				03C02E862AA6689B00DA26BD /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				03C02E9D2AA6689B00DA26BD /* DraughtsAppUITestsLaunchTests.swift */,
 			);
 			path = DraughtsAppUITests;
+			sourceTree = "<group>";
+		};
+		03C02EB02AA8E98F00DA26BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03C02E822AA6689800DA26BD /* WelcomeView.swift */,
+				03C02EB42AA8EBB700DA26BD /* GameModeView.swift */,
+				03C02EBC2AACC17700DA26BD /* StatsView.swift */,
+				03C02EBE2AACC1E500DA26BD /* BoardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03C02EB12AA8E99600DA26BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03C02EC22AAE4D7000DA26BD /* Utils.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C02E832AA6689800DA26BD /* ContentView.swift in Sources */,
+				03C02EBD2AACC17700DA26BD /* StatsView.swift in Sources */,
+				03C02EB52AA8EBB700DA26BD /* GameModeView.swift in Sources */,
+				03C02EBF2AACC1E500DA26BD /* BoardView.swift in Sources */,
+				03C02E832AA6689800DA26BD /* WelcomeView.swift in Sources */,
 				03C02E812AA6689800DA26BD /* DraughtsAppApp.swift in Sources */,
+				03C02EC32AAE4D7000DA26BD /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
