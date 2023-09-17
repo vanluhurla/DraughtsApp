@@ -18,6 +18,7 @@
 		03C02EBD2AACC17700DA26BD /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02EBC2AACC17700DA26BD /* StatsView.swift */; };
 		03C02EBF2AACC1E500DA26BD /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02EBE2AACC1E500DA26BD /* BoardView.swift */; };
 		03C02EC32AAE4D7000DA26BD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02EC22AAE4D7000DA26BD /* Utils.swift */; };
+		03C02ECD2AB7618F00DA26BD /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C02ECC2AB7618F00DA26BD /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		03C02EBC2AACC17700DA26BD /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		03C02EBE2AACC1E500DA26BD /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		03C02EC22AAE4D7000DA26BD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		03C02ECC2AB7618F00DA26BD /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				03C02EC22AAE4D7000DA26BD /* Utils.swift */,
+				03C02ECC2AB7618F00DA26BD /* UserProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				03C02EBD2AACC17700DA26BD /* StatsView.swift in Sources */,
 				03C02EB52AA8EBB700DA26BD /* GameModeView.swift in Sources */,
+				03C02ECD2AB7618F00DA26BD /* UserProfile.swift in Sources */,
 				03C02EBF2AACC1E500DA26BD /* BoardView.swift in Sources */,
 				03C02E832AA6689800DA26BD /* WelcomeView.swift in Sources */,
 				03C02E812AA6689800DA26BD /* DraughtsAppApp.swift in Sources */,

@@ -31,6 +31,14 @@ struct WelcomeView: View {
                             Text("Stats")
                         }
                     }
+                    NavigationLink(destination: BoardView()) {
+                        HStack {
+                            Image(systemName: "square.grid.3x3.square")
+                                .imageScale(.large)
+                                .foregroundColor(.orange)
+                            Text("Board")
+                        }
+                    }
                 }
                 Spacer()
                 Text("CFG iOS App Dev MOOC")
